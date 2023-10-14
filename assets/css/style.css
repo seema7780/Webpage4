@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    width:100%;
+    height: 60px;
+    color: #fff;
+    background: #131e3a;
+    display: flex;
+    align-items: center;
+    padding: 0PX 125PX;
+    justify-content: space-between;
+    }
+
+    header ul li{
+
+        margin-right: 15px;
+        display: inline-block;
+        
+
+    }
+
+    header ul li a{
+        font-weight: 600px;
+    }
+    header ul li a.active{
+
+        color:#ff4f7b;
+
+
+    }
+    /* banner section start */
+
+    .banner{
+        width: 100%;
+        height: 650px;
+        color:#fff;
+
+        padding: 0px 125px;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/banner.jpg);
+        background-size: 100% 100%;
+        position: relative;
+
+    
+    }
+    .banner h1{
+        top: 100px;
+        font-size: 50px;
+        position:absolute;
+
+        font-weight: normal;
+
+
+    }
+    .banner h2{
+        top: 230px;
+        font-size: 30px;
+        position: absolute;
+
+
+    }
+    .searchform form lable{
+        display: none;
+    }
+    .banner form{
+        width: 84%;
+        bottom: 50px;
+        height: 150px;
+        display: flex;
+        padding: 2px,8px;
+        position: absolute;
+        align-items: center;
+        background: #5c327a;
+        
+    }
+    .banner form button{
+        width: 90px;
+        height: 30px;
+        border:none;
+        color: #fff;
+        font-weight: 500;
+        background: #43215c;
+    }
+    .banner form button.active{
+        background: #fc2d4b;
+
+    }
+    .banner form label{
+        display: none;
+    } 
+    .banner form .searchform{
+        margin-top: 8px;
+
+    }
+    .banner form .searchform input,
+    .banner form .searchform select{
+        width:160px;
+        height: 35px;
+        margin-right: 5x;
+    }
+    .banner form button.smt{
+        width: 90px;
+        height: 90px;
+        border-radius: 50px;
+        margin-left: 100px;
+        background-color: #fc2d4b;
+    }
+    .banner searchform {
+        margin-left: 10px;
+    }
+    .Travel{
+        margin-top: 10px;
+        justify-content:space-between;
+        
+    }
+ .fun{
+    width: 100%;
+    height: 200px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/img.jpg);
+    background-size: 100% 100%; 
+ }
+ .fun h2{
+    color:#fff;
+    text-align: center;
+    justify-content: space-between;
+
+
+
+ }
+
+ h2{
+    color:#fff;
+    text-align: center;
+    margin-bottom: 40px;
+
+ }
+
+
+ .fun ul {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .fun ul li{
+    width: 130px;
+    height: 125px;
+    color:#fff;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    background-color:rgba(0,0,0,0.7);
+    
+ }
+ .fun ul li i{
+    width: 50px;
+    height: 50px;
+ }
+ .Newsletter{
+    width: 100%;
+    padding: 50px 125px;
+    background: url(../img/B.jpeg);
+    color: #fff;
+    text-align: center;
+
+
+ }
+/* /Banner section end */
+
+
+ .Destination{
+    width: 100%;
+    padding: 50px 120px;
+    height: auto;
+    color: #fff;
+    background: #1F172F;
+ }
+
+
+.Destination ul{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-template-rows: 300px 300px;
+    grid-gap: 30px;
+}
+.Destination ul li{
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    border:5px solid #fff;
+
+}
+.Newsletter form label{
+    display: none;
+}
